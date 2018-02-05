@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose Your Stop"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:id="@+id/imageButton2"
+        android:scaleType="fitCenter"
+        android:src="@null"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Redmond Transit Center"
+        android:id="@+id/button2"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Eastgate"
+        android:id="@+id/button7"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="164TH AVE"
+        android:id="@+id/button8"
+        android:layout_above="@+id/button7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Crossroads"
+        android:id="@+id/button9"
+        android:layout_above="@+id/button8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="148TH AVE"
+        android:id="@+id/button10"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Education Hill "
+        android:id="@+id/button11"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp" />
+
+</RelativeLayout>

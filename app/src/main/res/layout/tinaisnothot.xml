@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose A Bus Route"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:textSize="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:id="@+id/imageButton2"
+        android:scaleType="fitCenter"
+        android:src="@null"
+        android:background="@null"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp" >
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Route #221"
+                android:id="@+id/button" />
+
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+
+</RelativeLayout>

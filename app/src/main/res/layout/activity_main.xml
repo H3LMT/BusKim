@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="0px"
+    android:paddingRight="0px"
+    android:paddingTop="0px"
+    android:paddingBottom="0px" tools:context=".MainActivity"
+    android:clickable="true"
+    android:background="@drawable/images">
+
+
+
+    <ImageButton
+        android:layout_width="1080px"
+        android:layout_height="1920px"
+        android:id="@+id/imageButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:src="@null"
+        android:background="@null" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Make Your Dreams Come True"
+        android:id="@+id/textView3"
+        android:typeface="serif"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:textAlignment="textStart" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:adjustViewBounds="true"
+        android:src="@drawable/pic"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/textView3" />
+
+</RelativeLayout>
